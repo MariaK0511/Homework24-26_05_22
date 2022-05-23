@@ -20,16 +20,18 @@ public class Main {
 создать объект "компьютер 1" с помощью первого конструктора и вывести информацию на экран;+
 создать объект "компьютер 2" с помощью второго конструктора и вывести информацию на экран.+
          */
-        Ram ram = new Ram();
-        Ram ram1 = new Ram("DDR", 4, "Internal");
-        Hdd hdd = new Hdd();
-        Hdd hdd1 = new Hdd("WD", 125);
+        Computer.Ram ram = new Computer.Ram();
+        Computer.Ram ram1 = new Computer.Ram("DDR", 4, "Internal");
+
+        Computer.Hdd hdd = new Computer.Hdd();
+        Computer.Hdd hdd1 = new Computer.Hdd("WD", 125);
         Computer computer = new Computer(1000, "Asus");
         System.out.println("Computer: ");
         System.out.println(computer.cost);
         System.out.println(computer.model);
         System.out.println(computer.ram);
         System.out.println(computer.hdd);
+
 
         Computer computer1 = new Computer(1600, "Apple");
         System.out.println("Computer1: ");
