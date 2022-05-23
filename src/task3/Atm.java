@@ -1,7 +1,5 @@
 package task3;
 
-import java.util.Scanner;
-
 public class Atm {
     int sumInATM;
     public void getMoney(int sum20, int sum50, int sum100) {
