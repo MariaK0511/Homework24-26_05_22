@@ -18,7 +18,7 @@ public class Main {
         int cash100 = new Scanner(System.in).nextInt();
 
         Atm atm = new Atm(10, 10, 3);
-        atm.getMoney(cash20, cash50, cash100);
+        atm.setMoney(cash20, cash50, cash100);
 
     }
 }

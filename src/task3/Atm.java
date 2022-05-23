@@ -11,7 +11,7 @@ public class Atm {
         this.cashAmount50 = cashAmount50;
         this.cashAmount100 = cashAmount100;
     }
-    public void getMoney(int sum20, int sum50, int sum100) {
+    public void setMoney(int sum20, int sum50, int sum100) {
         sumInATM = (sum20 * cashAmount20) + (sum50 * cashAmount50) + (sum100 * cashAmount100);
         System.out.println(sumInATM);
     }
