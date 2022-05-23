@@ -19,7 +19,7 @@ public class Main {
 
         Atm atm = new Atm(10, 10, 3);
         atm.setMoney(cash20, cash50, cash100);
-        System.out.println(atm.getSumInATM());;
+        System.out.println(atm.getSumInATM());
     }
 }
 
