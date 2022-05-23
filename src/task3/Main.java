@@ -17,8 +17,8 @@ public class Main {
         System.out.println("enter the number of bills 100: ");
         int cash100 = new Scanner(System.in).nextInt();
 
-        Atm atm = new Atm();
-        atm.getMoney(cash20, cash50,cash100);
+        Atm atm = new Atm(10, 10, 3);
+        atm.getMoney(cash20, cash50, cash100);
 
     }
 }
