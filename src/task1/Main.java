@@ -15,15 +15,16 @@ public class Main {
          */
         CreditCard firstCard = new CreditCard("1444", 100);
         CreditCard secondCard = new CreditCard("3456", 12);
-        CreditCard thirdCard = new CreditCard("1230", 10);
+        CreditCard thirdCard = new CreditCard("1230", 100);
 
+        firstCard.putMoneyOnCard(10);
         firstCard.cardsInfo();
-        firstCard.putMoneyOnCard();
 
+
+        secondCard.putMoneyOnCard(5);
         secondCard.cardsInfo();
-        secondCard.putMoneyOnCard();
 
+        thirdCard.withdrawMoneyFromCard(50);
         thirdCard.cardsInfo();
-        thirdCard.withdrawMoneyFromCard();
     }
 }
