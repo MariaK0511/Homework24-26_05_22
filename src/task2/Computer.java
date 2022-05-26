@@ -3,8 +3,8 @@ package task2;
 public class Computer {
     int cost;
     String model;
-    int ram;
-    int hdd;
+    Ram ram;
+    Hdd hdd;
 
     public static class Ram {
         String name;
@@ -46,8 +46,7 @@ public class Computer {
         this.cost = cost;
         this.model = model;
     }
-
-    Computer(int cost, String model, int ram, int hdd) {
+    Computer(int cost, String model, Ram ram, Hdd hdd) {
         this.cost = cost;
         this.model = model;
         this.ram = ram;

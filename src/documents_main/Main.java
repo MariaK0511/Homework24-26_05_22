@@ -1,6 +1,6 @@
 package documents_main;
 
-import Documents.classes.Register;
+import document_class.Register;
 import contract1.SupplyOfGoods;
 import contract2.EmployeeContract;
 import contract3.FinancialInvoice;
@@ -65,8 +65,8 @@ public class Main {
         register.saveDocInRegister(supplyOfGoods1, 1);
         register.saveDocInRegister(employeeContract, 2);
         register.saveDocInRegister(employeeContract1, 3);
-        register.saveDocInRegister(financialInvoice,4);
-        register.saveDocInRegister(financialInvoice1,5);
+        register.saveDocInRegister(financialInvoice, 4);
+        register.saveDocInRegister(financialInvoice1, 5);
         register.showInfo();
 
     }

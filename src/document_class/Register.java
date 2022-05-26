@@ -1,6 +1,5 @@
-package Documents.classes;
+package document_class;
 
-import contract2.EmployeeContract;
 import document_abstract.Document;
 
 public class Register {

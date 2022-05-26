@@ -1,9 +1,6 @@
 package contract1;
 
-import Documents.classes.Register;
 import document_abstract.Document;
-
-
 import java.util.Date;
 
 public class SupplyOfGoods extends Document {
@@ -20,9 +17,8 @@ public class SupplyOfGoods extends Document {
         this.quantityGoods = quantityGoods;
     }
 
-
     @Override
     public void showInfo() {
-        System.out.println("Номер документа " + docNum + "Тип товаров " + typeOfGoods + " Количество товаров " + quantityGoods + "Дата документа " + date);
+        System.out.println("Номер документа " + docNum + " Тип товаров " + typeOfGoods + " Количество товаров " + quantityGoods + " Дата документа " + date);
     }
 }

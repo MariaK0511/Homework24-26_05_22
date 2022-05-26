@@ -38,7 +38,7 @@ public class Main {
         System.out.println(computer1.cost);
         System.out.println(computer1.model);
 
-        Computer computer2 = new Computer(1200, "Samsung", 16, 123);
+        Computer computer2 = new Computer(1200, "Samsung", ram, hdd);
         System.out.println("Computer2: ");
         computer2.compInfo();
         ram1.ramInfo();
